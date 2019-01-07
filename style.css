@@ -1,0 +1,65 @@
+html,
+body {
+	background-color: #d8d8d8;
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: auto;
+	margin: 0;
+	padding: 0
+	overflow: hidden;
+}
+
+::selection {
+  background: white; 
+}
+
+p {
+	margin-bottom: 5rem;
+}
+
+a {
+	color: #000;
+	font-family: Times New Roman;
+	font-weight: 300;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:visited {
+	color: #000;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.container {
+	position: absolute;
+	width: 30%;
+	height: 100vh;
+	padding: 0.5rem;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+
+.arena {
+	width: 30px;
+}
+
+.arena:hover {
+	opacity: 0.2;
+	cursor: pointer;
+}
