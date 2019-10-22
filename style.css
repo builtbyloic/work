@@ -68,7 +68,6 @@ li {
 }
 
 .links-left {
-	background-color: blue;
 	height: 100%;
 	margin-right: 0.25rem;
 	float: left;
@@ -76,7 +75,6 @@ li {
 }
 
 .links-right {
-	background-color: red;
 	height: 100%;
 	float: left;
 
