@@ -69,14 +69,14 @@ li {
 }
 
 .links-left {
-	width: 5%;
+	width: 3rem;
 	height: 100%;
 	float: left;
 
 }
 
 .links-right {
-	width: 95%;
+	width: 6rem;
 	height: 100%;
 	float: left;
 
