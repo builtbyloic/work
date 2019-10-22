@@ -58,10 +58,14 @@ li {
 	margin-bottom: 1rem;
 }
 
-.links a {
+.links {
 	font-size: 20px;
-	text-transform: uppercase;
 	margin-bottom: 0.5rem;
+}
+
+.links a {
+	text-transform: uppercase;
+
 }
 
 .links-left {
