@@ -26,14 +26,12 @@ p {
 }
 
 a {
-	color: #919191;
-	font-family: 'Playfair Display', serif;
 	text-decoration: none;
 	cursor: pointer;
 }
 
 a:visited {
-	color: #919191;
+
 }
 
 ul {
@@ -62,7 +60,6 @@ li {
 }
 
 .links a {
-	font-family: Helvetica Neue;
 	text-transform: uppercase;
 
 }
