@@ -7,9 +7,10 @@
 html,
 body {
 	background-color: #f8f8f8;
-	font-family: 'Libre Baskerville', 'Times New Roman', Serif;
+	font-family: "Helvetica Neue", Sans-Serif;
 	font-size: 12px;
 	font-weight: 400;
+	text-transform: uppercase;
 	line-height: 1.3;
 	margin: 0;
 	padding: 0.5rem 0.25rem 0.5rem 0.5rem;
@@ -25,11 +26,13 @@ p {
 }
 
 a {
+	color: #000;
 	text-decoration: none;
 	cursor: pointer;
 }
 
 a:visited {
+	color: #000;
 
 }
 
@@ -40,8 +43,8 @@ ul {
 
 li {
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	margin: 0 0 1rem 0;
+	
 }
 
 .container {
@@ -50,33 +53,12 @@ li {
 	box-sizing: border-box;
 }
 
-.info {
-	margin-bottom: 1rem;
+.project-number {
+	font-size: 1rem;
 }
 
-.links {
-	font-size: 15px;
-}
-
-.links a {
-	text-transform: uppercase;
-
-}
-
-.links a:visited {
-}
-
-.links-left {
-	height: 100%;
-	margin-right: 0.25rem;
-	float: left;
-
-}
-
-.links-right {
-	height: 100%;
-	float: left;
-
+.project-title {
+	margin-left: 1rem;
 }
 
 
